@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('clean workdir') {
       steps {
-        sh '/Users/chenhuaquan/Desktop/workspace/jenkins-project/zeropro/script/01_clean_workdir.sh'
+        sh '''/home/clean-workdir.sh
+'''
       }
     }
   }
