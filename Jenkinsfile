@@ -7,5 +7,15 @@ pipeline {
 '''
       }
     }
+    stage('extract files') {
+      steps {
+        sh '/home/clean-workdir.sh'
+      }
+    }
+    stage('copy files') {
+      steps {
+        sh '/home/clean-workdir.sh'
+      }
+    }
   }
 }
